@@ -24,7 +24,7 @@ services:
     volumes:
       - /dev/shm:/dev/shm
     ports:
-      - 9001:5900                                                                                                                                                                                                                              links:                                                                                                                                                                                                                                         - hub                                                                                                                                                                                                                                  
+      - '9001:5900'                                                                                                                                                                                                                              links:                                                                                                                                                                                                                                         - hub                                                                                                                                                                                                                                  
   firefox:
     image: selenium/node-firefox
     container_name: web-automation_firefox
