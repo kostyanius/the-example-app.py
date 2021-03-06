@@ -1,8 +1,8 @@
 run:
-	python app.py
+	python3 app.py
 
 test:
-	python -m nose --verbosity=3 -x --with-xunit --rednose
+	python3 -m nose --verbosity=3 -x --with-xunit --rednose
 
 coverage:
 	coverage run --source=i18n,lib,routes,services -m nose --verbosity=3 -x --with-xunit --rednose
