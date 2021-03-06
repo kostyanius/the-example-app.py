@@ -24,7 +24,7 @@ services:
     volumes:
       - /dev/shm:/dev/shm
     ports:
-      - "9001:5900"                                                                                                                                                                                                                         >  firefox:
+      - "9001 : 5900"                                                                                                                                                                                                                         >  firefox:
     image: selenium/node-firefox
     container_name: web-automation_firefox
     depends_on:
